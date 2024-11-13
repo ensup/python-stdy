@@ -3,11 +3,11 @@ def is_pal_v2(str):
 
     Return True if and only if s is a palindrome.
 
-    >>> is_pal('noon')
+    >>> is_pal_v2('noon')
     True
-    >>> is_pal('racecar')
+    >>> is_pal_v2('racecar')
     True
-    >>> is_pal('dented')
+    >>> is_pal_v2('dented')
     False
     """
     l=len(str)
